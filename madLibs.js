@@ -1,15 +1,21 @@
 
 
-//Stirngs
+//Strings
+
+
 const timeOfDay = "one bright morning";
-const location = "sea";
+const TravelDestination = "sea";
 const mystery = "chest";
 const pirate = "captain";
 
 //numbers
+
+
 const multi = 5 * 5;
 
 //boolean
+
+
 const booleanValue = timeOfDay.includes("morning") ;
 
 //Object with properties 
@@ -32,14 +38,17 @@ const story =  ` 2. The Pirate Adventure
 The endless sea stretched endlessly before us. Just then, we spotted a mysterious chest floating in the water. 
 'Could it be treasure?' the captain exclaimed. We hauled it aboard and opened it. Did you know 5 × 5 equals 25? 
 Incredible, right?" `;
+
+
+
+
+
 document.getElementById("madlibs-output").textContent = story;
-  
-
-
-
 
 
 console.log(story);
+
+
 
 
 
